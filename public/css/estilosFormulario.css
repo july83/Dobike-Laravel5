@@ -1,0 +1,475 @@
+/*Autor: Julian Calle Felix*/
+
+/*Para que todos los navegadores vean bien la pagina*/
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+/*Estilos generales*/
+.body{
+	font-family: "Myriad Pro";
+	font-stretch: condensed;
+	font-weight: bold;	
+	/*font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
+}
+
+.asterisco {
+	color: #0071BC;
+	font-size: 20px;
+}
+
+/*Estilos generales formulario*/
+.formulario{
+	position: absolute;
+	border-radius:20px;
+	width: 870px;
+	height: 570px;
+	background: -webkit-linear-gradient(#B3B3B3, #CCCCCC); /*safari*/
+	background: -o-linear-gradient(#B3B3B3, #CCCCCC); /*opera*/
+	background: -moz-linear-gradient(#B3B3B3, #CCCCCC); /*firefox*/
+	background: linear-gradient(#B3B3B3, #CCCCCC); /*standard*/
+	left:50%;
+	top:80%;
+	margin-top:-320px;
+	margin-left:-435px;
+	color: black;
+}
+
+.formulario h2 {
+	position:absolute;
+	top: 40px;
+	left: 20px;
+	color:#0071BC;
+	font-size: 22pt;
+}
+
+.formulario p {
+	font-weight: 600;
+	position:absolute;
+	top: 70px;
+	left: 20px;
+	font-size: 10pt;
+}
+
+
+.formulario label {
+	position:absolute;
+	font-size:15pt;
+	color: black;
+}
+
+/*Estilos formulario mensaje de respuesta servidor*/
+.Respformulario {
+    position: absolute;
+	border-radius:20px;
+	width: 870px;
+	height: 170px;
+	background: -webkit-linear-gradient(#B3B3B3, #CCCCCC); /*safari*/
+	background: -o-linear-gradient(#B3B3B3, #CCCCCC); /*opera*/
+	background: -moz-linear-gradient(#B3B3B3, #CCCCCC); /*firefox*/
+	background: linear-gradient(#B3B3B3, #CCCCCC); /*standard*/
+	left:50%;
+	top:80%;
+	margin-top:-320px;
+	margin-left:-435px;
+	color: black;
+}
+
+.Respformulario h2 {
+	position: relative;
+	top: 40px;
+	text-align: center;
+	color:#0071BC;
+	font-size: 22pt;
+}
+
+.Respformulario p {
+	font-weight: 600;
+	position:relative;
+	text-align: center;
+	top: 70px;
+	font-size: 10pt;
+}
+
+/*Estilos para las etiquetas del formulario*/
+#nombre {
+	left:20px;
+	top:115px;
+}
+
+#codigo {
+	left:455px;
+	top:500px;
+}
+
+#email {
+	left:20px;
+	top:200px;
+	/*top:285px;*/
+}
+
+
+#contrasena {
+	left:20px;
+	top:285px;
+	/*top:455px;*/
+}
+
+#repcontrasena {
+	left:20px;
+	top:370px
+}
+
+
+#direccion {
+	left:450px;
+	top:115px;
+}
+
+#url {
+	left:20px;
+	top:455px;
+}
+
+
+#pais {
+	left:450px;
+	top:200px;
+}
+
+#cp {
+	left:665px;
+	top:200px;
+}
+
+#comentarios {
+	left:450px;
+	top:285px;
+}
+
+/*Estilos para las cajas de texto del formulario*/
+#NOMBRE {
+	position:absolute;
+	left:20px;
+	top:145px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+
+
+#MAIL {
+	position:absolute;
+	left:20px;
+	top:230px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+#CODIGO {
+	position:absolute;
+	left:455px;
+	top:500px;
+	background: rgb(204,204,204);
+}
+
+#CONTRASENIA {
+	position:absolute;
+	left:20px;
+	top:315px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+#REPCONTRASENIA{
+	position:absolute;
+	left:20px;
+	top:400px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+
+#URL{
+	position:absolute;
+	left:20px;
+	top:485px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+
+#selectanio {
+	position: absolute;
+	font-family: "Myriad Pro";
+	font-stretch: condensed;
+	font-weight: bold;	
+	text-align:center;
+	left:720px;
+	top:145px;
+	background: #333333;
+	color: white;
+	height: 30px;
+}
+
+
+#DIRECCION {
+	position:absolute;
+	left:450px;
+	top:145px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 25px;
+}
+
+
+
+#selectpais {
+	position:absolute;
+	font-family: "Myriad Pro";
+	font-stretch: condensed;
+	font-weight: bold;	
+	text-align:center;
+	left:450px;
+	top:230px;
+	background: #333333;
+	color: white;
+	border:1px solid black;
+	width: 170px;
+	height: 29px;
+}
+
+
+#CP {
+	position:absolute;
+	left:665px;
+	top:230px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 135px;
+	height: 25px;
+}
+
+#CP[disabled] {
+	background: #333333;
+}
+
+#COMENTARIOS {
+	position:absolute;
+	left:450px;
+	top:315px;
+	background: rgb(204,204,204);
+	border:1px solid black;
+	width: 350px;
+	height: 75px;
+	font-family: "Myriad Pro";
+	font-stretch: condensed;
+	font-weight: bold;	
+}
+
+
+
+
+#terminos {
+	font-family: "Myriad Pro";
+	font-stretch: normal;
+	font-weight: 100;	
+	font-size: 15px;
+	left:450px;
+	top:420px;
+}
+
+#camposobligatorios {
+	font-family: "Myriad Pro";
+	font-stretch: normal;
+	font-weight: 100;
+	font-size: 15px;
+	left:450px;
+	top:460px;
+}
+
+/*Estilos para el boton de envio*/
+#botonForm {
+	font-family: "Myriad Pro";
+	font-stretch: condensed;
+	font-weight: bold;
+	position:absolute;
+	padding:7px 20px 5px 20px;
+	border-radius:17px;
+	border:1px;
+	top:485px;
+	left:680px;
+	background: #0071BC;
+	color:white;	
+	font-size:14pt;
+	text-align:center;
+	-webkit-box-shadow: 0px 5px 5px 0px #7FC4F5;
+	-moz-box-shadow: 0px 5px 5px 0px #7FC4F5;
+	box-shadow: 0px 5px 5px 0px #7FC4F5;
+}
+
+#botonForm[disabled] {
+	color: gray;
+}
+
+/*Estilos para los mensajes de error de cada campo del formulario*/
+
+#nombreError {
+	left:190px;
+	top:115px;
+	color: red;
+}
+
+#correoError {
+	left:169px;
+	top:200px;
+	color: red;
+}
+
+#contrError {
+	left:190px;
+	top:285px;
+	color: red;
+}
+
+#contrRepError {
+	left:228px;
+	top:370px;
+	color: red;
+}
+
+#urlError {
+	left:202px;
+	top:455px;
+	color: red;
+}
+
+#direccionError {
+	left:600px;
+	top:115px;
+	color: red;
+}
+
+#CPError {
+	left:700px;
+	top:200px;
+	color: red;
+}
+
+#ComentError {
+	left:700px;
+	top:285px;
+	color: red;
+}
+
+#ComentErrorDos {
+	left:700px;
+	top:285px;
+	color: blue;
+}
+
+#CodigoError {
+	left:550px;
+	top:485px;
+	color: red;
+}
+
+#CodigoNoError {
+	left:550px;
+	top:485px;
+	color: blue;
+}
+
+/*Estilos para las imagenes de ok o noOk de cada campo del formulario*/
+
+#infoImgNombre {
+	position:absolute;
+	left:380px;
+	top:145px;
+}
+
+#infoImgCorreo {
+	position:absolute;
+	left:380px;
+	top:230px;
+}
+
+#infoImgCont {
+	position:absolute;
+	left:380px;
+	top:315px;
+}
+
+#infoImgContR {
+	position:absolute;
+	left:380px;
+	top:400px;
+}
+
+#infoImgUrl {
+	position:absolute;
+	left:378px;
+	top:485px;
+}
+
+#infoImgDireccion {
+	position:absolute;
+	left:810px;
+	top:145px;
+}
+
+#infoImgCP {
+	position:absolute;
+	left:810px;
+	top:230px;
+}
+
+/*Estilos para el boton de cerrar formulario*/
+#botonCerrarForm {
+	position:absolute;
+	left:825px;
+	top:5px;
+	background-color: transparent;
+	/*outline: -moz-focus-inner:none;*/
+	border: none;
+}
+
+#botonCerrarForm2 {
+	position:absolute;
+	left:825px;
+	top:5px;
+	background-color: transparent;
+	/*outline: -moz-focus-inner:none;*/
+	border: none;
+}
+
+/*Estilos para visualizar formulario sobre pagina principal*/
+#Form1 {
+	display:none;
+	width:100%;
+	height:193%;
+	height: -webkit- 193%; /*safari*/
+	height: -o- 193%; /*opera*/
+	height: -moz- 253%; /*firefox*/
+	background:#000;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+#Form {
+	display:none;
+	z-index:20
+}

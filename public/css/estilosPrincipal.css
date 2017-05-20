@@ -1,0 +1,489 @@
+/*Autor: Julian Calle Felix*/
+
+/*----------------------------------Estilos generales----------------------------------*/
+body {
+	font-family: "Myriad Pro" !important;
+	font-stretch: condensed !important;
+	font-weight: bold !important;
+}
+
+@media screen {
+    .usabilidadH1{
+        display: none;
+    }
+}
+
+.menuOferta {
+    color: lightsalmon !important;
+}
+/*----------------------------------Estilos Cabecera----------------------------------*/
+.cabecera {	
+	background: black;
+	font-size: 13pt;  
+}
+
+.ancho > li > a {
+    height: 33px;
+    padding-top: 8px !important;
+    color: rgb(204, 204, 204) !important;
+}
+
+
+/*----------------------------------Estilos para el menu navegacion----------------------------------*/
+.menu{
+    background: -webkit-linear-gradient(#0071BC, #66AAD7, #00558D); /*safari*/
+	background: -o-linear-gradient(#0071BC, #66AAD7, #00558D); /*opera*/
+	background: -moz-linear-gradient(#0071BC, #66AAD7, #00558D); /*firefox*/
+	background: linear-gradient(#0071BC, #66AAD7, #00558D); /*standard*/
+	font-size: 15pt;
+    margin-bottom: 0px;
+}
+
+#acolapsar ul > li > a  {
+    color: white;
+}
+
+#formulario {
+    margin-top: 9px;
+}
+
+#cajaBuscador {
+	width: 100%;	
+	height:30px;
+	background: rgba(0, 0, 0, .3);
+	border:0px;	
+    padding-left: 35px;
+}
+
+.usabilidadBuscador {
+        z-index: 1;
+        height: 32px;
+    }
+
+@media screen {
+    #boton {
+        position: absolute;
+        background-color: transparent;
+        z-index: 1;	
+        padding: 5.5px;
+        background-image:  url("../img/lupa.png");
+        background-size: 20px;
+        width: 20px !important;
+        height: 20px;
+        margin-top: 5px;
+        margin-left: 3px;
+        background-repeat: no-repeat;
+        border: 0px;
+    }
+    .usabilidadBuscador {
+       display: none;
+    }
+}
+
+
+/*----------------------------------Estilos Carousel----------------------------------*/
+.carousel-inner  figcaption {
+    color: #FFD800;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.carousel-inner  a {
+    color: black;
+    font-size: 2em;
+}
+
+.color {
+    background: #0071BC !important;
+}
+
+.colorTexto {
+    color: #0071BC !important;
+}
+
+.carousel-caption{
+	width: 300px !important;
+        //height: 150px;
+	background: linear-gradient(#0071BC, #66AAD7, #00558D); /*standard*/
+	border-radius: 50px;
+
+}
+
+@media screen {
+    .usabilidadSelectores{
+        display: none;
+    }
+}
+
+/*----------------------------------Estilos ofertas individuales----------------------------------*/
+.estiloOfertas {
+    border:1px solid #99CCCC;
+    color: #0071BC;
+}
+
+.estiloOfertas:hover{
+	border:1pt solid #E74C3C;
+}
+
+.precio {
+    margin-top: -55px;
+}
+
+.estiloOfertas > figcaption > strong {
+    font-size: 130%;
+}
+
+.estiloOfertas > figcaption > p {
+    color: #333333;
+    font-size:160%;
+    font-weight: normal;
+}
+
+
+.estiloOfertas > figcaption > p + p{
+    color: #0071BC;
+    font-size:250%;
+    font-weight: bold;
+}
+
+/*.margen {
+    margin-top: auto;
+    margin-bottom: auto;
+}*/
+
+
+
+.borde-separativo-ofertas {
+    border-top: 1px solid #99CCCC;
+}
+
+.borde-separativo-ofertas:hover {
+    border-top: 1px solid #E74C3C;
+}
+
+/*.margen-texto {
+    padding-left:  10px;
+    padding-right: 10px;
+}*/
+
+
+/*----------------------------------Estilos Pie de pagina----------------------------------*/
+.PiePagina {
+    background:rgb(84, 84, 84);
+    border-bottom: 1px;
+    color:#CCCCCC;
+    padding-bottom: 20px;
+}
+
+#footer > div  p {
+    font-size:120%;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#footer > div > div + div > p  {
+    font-size:130%;
+    padding-left: 0px;
+}
+.redes-sociales {
+    padding-top: 7px;
+}
+.redes-sociales >ul > li > a {
+    background: none;
+    outline:0;
+    padding-top: 15px;
+}
+
+.redes-sociales > li > a {
+    padding: 7px !important;
+    background-color: transparent !important;
+
+}
+.container-fluid {
+    padding: 0px !important;
+}
+.borde-separativo {
+    border-bottom: 1px solid #CCCCCC;
+}
+.encabezadoPie {
+    font-size: 150% !important;
+}
+
+#footer > div + div a {
+    font-size: 95%;
+    color:#CCCCCC;
+    background: none;
+    outline:0;
+}
+
+#footer > div + div a:hover {
+    font-size: 105%;
+    //color:red;
+}
+
+.margen-boton {
+    margin-right: 30px !important;
+}
+
+.enlacesFooter{
+	top: 20px;
+        text-align: center;
+        font-size: 1.3em;
+}
+
+.listasInfoFooter {
+    list-style-type: disc;
+}
+
+.listasInfoFooter > li{
+    margin-left: 50px;
+}
+
+.listasInfoFooter > li > p{
+    padding-left: 0px !important;
+}
+
+/*----------------------------------Estilos Productos----------------------------------*/
+
+.estiloFormularios{
+	margin-top: 30px;
+	height: auto;
+	box-shadow: 0px 2px 10px #d6d6d6;
+	border-radius: 6px;
+        background: none !important;
+}
+
+.estiloFormularios>div>form>div>label{
+	font-size: 2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.estiloFormularios>div>a{
+	padding-top: 15px;
+}
+
+.estilosPerfil{
+	margin-top: 50px;
+        font-size: 20pt;
+        text-transform: capitalize;
+        
+}
+
+.estilos-Login-Registro {
+    margin-top: 30px;
+    left: 65px;
+    border-left: 3pt solid #CCCCCC;
+    height: 250px;
+    //width: 500px;
+    padding-left: 60px;
+}
+
+.caja_producto{
+	border-radius: 20px;
+	height: 350px;
+	width: 365px !important;
+	margin-left: 7.5px;
+        margin-right: 7.5px;
+}
+
+.caja_producto:hover{
+	border:3pt solid #0071BC;
+}
+
+.caja_producto>div>h3{
+    font-size: 1em;
+    font-style: italic;
+}
+.caja_producto>div>p>a{
+	font-size: 1em;
+	width: 100px;
+}
+
+.caja_producto_reducido4{
+	border-radius: 20px;
+	height: 280px;
+	width: 265px !important;
+	margin-left: 7.5px;
+        margin-right: 7.5px;
+}
+
+.caja_producto_reducido4:hover{
+	border:3pt solid #0071BC;
+}
+
+.caja_producto_reducido4>div>h3{
+    font-size: 1em;
+    font-style: italic;
+}
+.caja_producto_reducido4>div>p>a{
+	font-size: 1em;
+	width: 100px;
+}
+
+/*.productos-box{
+	height: auto;
+}*/
+
+.prodcuto-descripcion {
+    border:1pt solid #0071BC !important;
+    height: auto;
+    width: 365px !important;
+    margin-bottom: 15px !important;
+    margin-right: 15px !important;
+}
+
+.tituloProducto{
+	color: #0071BC;
+        font-weight: bold;
+	padding-bottom: 15px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 3em;
+        text-transform: capitalize;
+}
+
+a {
+    text-decoration:none !important; 
+}
+
+.texto-Producto > p{
+    font-family: "Myriad Pro" !important;
+    font-stretch: normal !important;
+    font-size: 10pt !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: justify;
+}
+
+.subtitulosFooter {
+    font-family: "Myriad Pro" !important;
+    font-stretch: normal !important;
+    font-size: 12pt !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    text-align: justify;
+    color: #E74C3C;
+}
+
+.desred {
+    color: #E74C3C;
+}
+
+.margen-productos {
+    margin-top: 50px;
+}
+
+.pulse:hover{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 1s;
+
+	animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1.2);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}				
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.95);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}			
+}
+
+#ordena{
+	margin: 10px 1px 10px auto;
+	width: 200px;
+	border: 2pt solid #0071BC;
+        //background: rgba(0, 0, 0, .3);
+}
+
+.porcentaje {
+    position: absolute; 
+    z-index: 5;
+    float:right !important;
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);
+    font-size: 2em;
+    color: orangered !important;
+}
+
+.img-cat {
+    position: relative;
+}
+
+/*.img-pro {
+    margin-top: -48px !important;
+}*/
+
+/*----------------------------------Estilos Login----------------------------------*/
+
+.titulo-Login{
+	//color: #0071BC !important;
+        font-weight: bold;
+	padding-bottom: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.botonlogin{
+    border-radius: 10px;
+    margin: 40px auto;
+    height: auto;
+    width: auto;
+}
+
+.botonRegistroLogin{
+    border-radius: 10px;
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+}
+
+.perfil{
+    padding-top: 30px;
+}
+
+.perfil-texto {
+    padding-left: 50px !important;
+}
+
+.margen-contenido {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.precioTachado {
+    text-decoration:line-through;
+    color: red;
+}
+.precioBueno {
+    padding-left: 10px;
+}
+/*----------------------------------Estilos Mapa----------------------------------*/
+
+#map{
+    width: 520px;
+    height: 300px;
+    border: 2pt solid #0071BC;
+}
+
+.boton_form_update {
+    margin-top: 30px !important;
+}
